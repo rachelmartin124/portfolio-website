@@ -1,0 +1,252 @@
+/* ------ CSS RESET ------ */ 
+
+* { 
+    padding: 0; 
+    margin: 0%;
+    font-size:100%; 
+    line-height: 3em; 
+}
+
+/* ------ MAIN STYLING ------ */ 
+
+body{ 
+    width: 75%;
+    max-width: 670px; 
+    margin: auto;
+    background: #DCDCDC; 
+    color: #333; 
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h1, h2, h3 { 
+    font-weight: normal; 
+    color: #333; 
+    text-align: center;
+        
+}
+
+p, li, blockquote {
+    margin-bottom: 2em;
+    line-height: 1.4
+    
+}
+
+.colour {
+    color:blueviolet;
+}
+
+h1  { 
+    font-size: 4em;
+    margin-top: 2em;
+    margin-bottom: -1em;} 
+        
+}
+
+        
+h2 { font-size: 2.827em;
+    margin-bottom:-5em;
+   
+    
+}
+
+h3 {font-size: 2.673em}
+
+blockquote {
+    hanging-punctuation: first;
+    text-indent: -0.5em 
+        
+}
+
+header h3 {
+
+    font-size: 4em;
+    margin-top: 1.2em;
+    color: #fff
+    
+}
+
+
+header h2 {
+    font-size: 1em;
+    margin-top: -4em;
+    color: #fff
+        
+        
+}
+
+
+
+/* ------ STYLING LINKS ------ */ 
+
+a {
+    color: #c06;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #006341;
+    border-bottom: 1px dotted;
+    
+}
+
+
+
+
+/*MONOGRAM*/
+.logo {
+    position:fixed;
+    top: 0%;
+    left:0%;
+    margin: 3%;
+    width: 100%;
+    padding: 1em 0;
+    max-width: 4%;
+    max-height: 6%;
+    float: left;
+    margin-left: 2em;
+    margin-top: -2.8em;
+    margin-right: 0em;
+    
+}
+
+ 
+.brd-box {
+    border: 1px solid #;
+    max-width:100%;
+    background-color: #333;
+    padding:0em 0;
+        
+    
+    
+}
+
+
+
+/* ------ NAVIGATION ------ */ 
+
+    
+
+nav {
+    position: fixed;
+    top:0%;
+    left:0; 
+    margin: 0%;
+    width: 100%;
+    background-color: #fff;
+    padding: 2em 0;
+    font-size: 0.90em 
+    
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 40px
+}
+
+
+nav a:link {color: #333}
+
+nav a:visited {color: #333}
+
+
+
+/* -------- BLOCKQUOTE ------- */ 
+
+blockquote {
+    padding: 1em 4em 0;
+    font-size: 1.75em;
+    line-height: 1.3;
+    color: #777
+        
+}
+
+blockquote cite {
+    font-size: 0.75em
+}
+
+/* ------- IMAGES -------- */
+
+img {
+    display: block;
+    margin: 4em auto;
+    padding: 0;
+    max-width: 50%
+}
+
+
+/* --------- FOOTER --------- */ 
+
+footer {
+    text-align: center;
+    font-size:0.75em; 
+    line-height: 1.5em; 
+    padding: 2em 0  4em 
+        
+}
+
+hr {
+    margin: 1em 0;
+    height: 1px; 
+    background-color: #333;
+    color: #333;
+    border: 0 none 
+    
+}
+
+
+footer {
+    
+    text-align: center; 
+    font-size: .75em; 
+    line-height: 1.5em;
+    padding-bottom: 2em;  
+    
+}
+
+footer hr 
+{
+    margin: 4em 0 
+}
+
+.connection {
+    position: relative;
+    margin: 6;
+}
+
+.connection ul {
+    margin: 4;
+    padding: 0em;}
+
+.connection li {
+    margin: 0 70px;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.connection a:{
+    border-bottom: none;  
+}
+
+.connection img {
+    opacity:0.7;
+    border: none;
+}
+
+.connection a:hover img {
+    opacity: 5.0;
+    border-bottom: none;
+    transition: all 0.3 ease-in-out; 
+    transform:scale(1.1)
+        
+
+        
+}
